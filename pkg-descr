@@ -6,4 +6,4 @@ This version of OpenIKED is derived from OpenIKED's iked, but changed
 to support transport mode IPSec and lazy creation of associations,
 among many other improvements.
 
-WWW: https://github.com/xcllnt/openiked
+WWW: https://github.com/openiked/openiked-portable
