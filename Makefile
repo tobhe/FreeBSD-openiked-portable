@@ -1,4 +1,4 @@
-# $FreeBSD: head/security/openiked/Makefile 547543 2020-09-04 14:33:16Z swills $
+# $FreeBSD: head/security/openiked/Makefile david@lapinbilly.eu $
 
 PORTNAME=	openiked-portable
 CATEGORIES=	security net
