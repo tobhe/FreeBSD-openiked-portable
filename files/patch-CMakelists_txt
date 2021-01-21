@@ -20,7 +20,7 @@
 -	add_definitions(-DIKED_CONFIG="/usr/local/etc/iked.conf")
 -	add_definitions(-DIKED_CA="/usr/local/etc/iked/")
 +	add_definitions(-DIKED_CONFIG="${CMAKE_INSTALL_SYSCONFDIR}/iked.conf")
-+	add_definitions(-DIKED_CA="${SYSCONFDIR}")
++	add_definitions(-DIKED_CA="${SYSCONFDIR}/")
  elseif(CMAKE_SYSTEM_NAME MATCHES "Linux")
  	add_definitions(-D_GNU_SOURCE)
  	add_definitions(-D_DEFAULT_SOURCE)
