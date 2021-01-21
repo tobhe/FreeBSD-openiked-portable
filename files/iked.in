@@ -54,7 +54,7 @@ iked_precmd()
 		if test ! -f $iked_privkey; then
 			/usr/bin/openssl ecparam -genkey -name prime256v1 -noout -out "$iked_privkey"
 			/bin/chmod 600 "$iked_privkey"
-			openssl ec -in "$iked_privkey" -pubout -out "$iked_pubkey"
+			/usr/bin/openssl ec -in "$iked_privkey" -pubout -out "$iked_pubkey"
 		fi
 	fi
 
