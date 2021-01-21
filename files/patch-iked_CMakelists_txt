@@ -1,0 +1,15 @@
+--- iked/CMakeLists.txt.ori
++++ iked/CMakeLists.txt
+@@ -194,3 +194,12 @@ add_custom_command(
+ )
+ 
+ install(TARGETS iked RUNTIME DESTINATION sbin)
++install(FILES ${CMAKE_SOURCE_DIR}/iked.conf DESTINATION ${CMAKE_INSTALL_SYSCONFDIR})
++install(DIRECTORY DESTINATION ${SYSCONFDIR}/ca)
++install(DIRECTORY DESTINATION ${SYSCONFDIR}/certs)
++install(DIRECTORY DESTINATION ${SYSCONFDIR}/crls)
++install(DIRECTORY DESTINATION ${SYSCONFDIR}/private)
++install(DIRECTORY DESTINATION ${SYSCONFDIR}/pubkeys/ipv4)
++install(DIRECTORY DESTINATION ${SYSCONFDIR}/pubkeys/ipv6)
++install(DIRECTORY DESTINATION ${SYSCONFDIR}/pubkeys/fqdn)
++install(DIRECTORY DESTINATION ${SYSCONFDIR}/pubkeys/ufqdn)

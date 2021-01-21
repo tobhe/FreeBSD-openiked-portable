@@ -52,10 +52,9 @@ iked_precmd()
 	else
 		# Create a key pair if not already present.
 		if test ! -f $iked_privkey; then
-			/usr/bin/openssl genrsa -out $iked_privkey 2048
-			/bin/chmod 600 $iked_privkey
-			/usr/bin/openssl rsa -out $iked_pubkey \
-			    -in $iked_privkey -pubout
+			/usr/bin/openssl ecparam -genkey -name prime256v1 -noout -out "$iked_privkey"
+			/bin/chmod 600 "$iked_privkey"
+			openssl ec -in "$iked_privkey" -pubout -out "$iked_pubkey"
 		fi
 	fi
 
