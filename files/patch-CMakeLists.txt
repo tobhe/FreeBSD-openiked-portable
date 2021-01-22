@@ -1,4 +1,4 @@
---- CMakeLists.txt.ori
+--- CMakeLists.txt.orig	2021-01-21 11:28:09 UTC
 +++ CMakeLists.txt
 @@ -24,6 +24,12 @@ include(CheckIncludeFiles)
  include_directories("/usr/local/include")

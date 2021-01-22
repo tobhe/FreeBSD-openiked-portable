@@ -1,4 +1,4 @@
---- iked/CMakeLists.txt.ori
+--- iked/CMakeLists.txt.orig	2021-01-21 11:28:09 UTC
 +++ iked/CMakeLists.txt
 @@ -194,3 +194,12 @@ add_custom_command(
  )
