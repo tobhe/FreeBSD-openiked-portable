@@ -1,5 +1,4 @@
-@sample etc/iked.conf.sample
-etc/rc.d/iked
+@sample(,,600) etc/iked.conf.sample
 sbin/ikectl
 sbin/iked
 @dir etc/iked/ca

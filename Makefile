@@ -10,7 +10,7 @@ LICENSE=	ISCL
 
 LIB_DEPENDS=	libevent.so:devel/libevent
 
-USES=		cmake
+USES=		cmake ssl
 
 USE_GITHUB=		yes
 GH_ACCOUNT=		openiked
