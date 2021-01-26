@@ -1,6 +1,6 @@
---- ikectl/CMakeLists.txt.ori	2021-01-26 21:10:39.000000000 +0100
-+++ ikectl/CMakeLists.txt	2021-01-26 21:33:08.558658000 +0100
-@@ -69,3 +69,4 @@
+--- ikectl/CMakeLists.txt.orig	2021-01-26 20:10:39 UTC
++++ ikectl/CMakeLists.txt
+@@ -69,3 +69,4 @@ target_link_libraries(ikectl
  )
  
  install(TARGETS ikectl RUNTIME DESTINATION sbin)

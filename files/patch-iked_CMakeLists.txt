@@ -1,6 +1,6 @@
---- iked/CMakeLists.txt.ori	2021-01-26 21:10:39.000000000 +0100
-+++ iked/CMakeLists.txt	2021-01-26 21:32:44.642884000 +0100
-@@ -195,6 +195,8 @@
+--- iked/CMakeLists.txt.orig	2021-01-26 20:10:39 UTC
++++ iked/CMakeLists.txt
+@@ -195,6 +195,8 @@ add_custom_command(
  
  install(TARGETS iked RUNTIME DESTINATION sbin)
  install(FILES ${CMAKE_SOURCE_DIR}/iked.conf DESTINATION ${CMAKE_INSTALL_SYSCONFDIR})
