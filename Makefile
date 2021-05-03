@@ -13,7 +13,6 @@ LIB_DEPENDS= libevent.so:devel/libevent
 USES=		cmake ssl
 USE_GITHUB=	yes
 GH_ACCOUNT=	openiked
-GH_TAGNAME=	1b25611c0ac56b5e32f361df70952d6f9037b1b3
 USE_RC_SUBR= iked
 USERS=		_iked
 GROUPS=		_iked
